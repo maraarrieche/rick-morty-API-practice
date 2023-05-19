@@ -28,8 +28,8 @@ function App(){
       <Route path="/episodes" element={<Episodes />}/>
       <Route path="/episodes/:id" element={<CardDetails/>}/>
 
-      <Route path="to/location" element={<Location />}/>
-      <Route path="to/location/:id" element={<CardDetails/>}/>
+      <Route path="/to/location" element={<Location />}/>
+      <Route path="/to/location/:id" element={<CardDetails/>}/>
     </Routes>
 
     </Router>
